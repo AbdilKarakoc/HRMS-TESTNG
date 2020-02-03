@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.testcases.LeaveListPageTest"/>
+      <class name="com.practice.Testing"/>
+      <class name="com.hrms.testbase.BaseClass"/>
+      <class name="com.practice.PropertyFileReading"/>
+      <class name="com.practice.XlRecap"/>
+      <class name="com.practice.ExcelWriting"/>
+      <class name="com.practice.XLReading"/>
+      <class name="com.testcases.LoginPageTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
